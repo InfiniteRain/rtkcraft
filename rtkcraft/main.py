@@ -20,7 +20,15 @@
 Initializes plugin.
 """
 
+import sys
+
 from rtkcraft.prerequisite_searcher import PrerequisiteSearcher
 
-ps = PrerequisiteSearcher()
-ps.get_morph_man()
+
+def main():
+    ps = PrerequisiteSearcher()
+    ps.get_morph_man()
+
+
+if 'unittest' not in sys.modules:
+    main()
