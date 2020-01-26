@@ -1,0 +1,3 @@
+mypy
+./wheels/anki-2.1.18+fb9d59fe-py3-none-any.whl
+./wheels/aqt-2.1.18+fb9d59fe-py3-none-any.whl
